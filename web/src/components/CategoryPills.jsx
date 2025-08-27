@@ -5,6 +5,7 @@ const CATEGORIES = [
     "Wearables",
     "Cameras",
     "Accessories",
+    "Laptops",
   ];
   
   export default function CategoryPills({ active, onChange }) {
@@ -17,10 +18,10 @@ const CATEGORIES = [
               key={c}
               onClick={() => onChange(c)}
               className={
-                "px-4 py-2 rounded-full text-sm border " +
+                "px-4 py-2 rounded-full text-sm border transition " +
                 (isActive
-                  ? "bg-indigo-600 text-white border-indigo-600"
-                  : "bg-white text-gray-700 border-gray-200 hover:border-gray-300")
+                  ? "bg-indigo-600 text-white border-indigo-500 shadow"
+                  : "bg-slate-800 text-white/80 border-white/10 hover:bg-slate-700 hover:text-white")
               }
             >
               {c}

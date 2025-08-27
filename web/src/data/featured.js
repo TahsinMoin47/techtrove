@@ -7,6 +7,7 @@ export const featuredGadgets = [
     description: "AI camera, 120Hz OLED, 5G performance.",
     category: "Phones",
     badge: "Hot",
+    owner: { name: "Nihad Hasan", email: "nihad@example.com", phone: "+8801711000001" },
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const featuredGadgets = [
     description: "Immersive ANC with 40h battery life.",
     category: "Audio",
     badge: "New",
+    owner: { name: "Rahnuma Rusammi", email: "rahnuma@example.com", phone: "+8801711000002" },
   },
   {
     id: 3,
@@ -24,6 +26,7 @@ export const featuredGadgets = [
     image: "https://picsum.photos/seed/watch/800/600",
     description: "AMOLED, GPS, advanced health tracking.",
     category: "Wearables",
+    owner: { name: "Sadia Ferdous", email: "sadia@example.com", phone: "+8801711000003" },
   },
   {
     id: 4,
@@ -32,6 +35,7 @@ export const featuredGadgets = [
     image: "https://picsum.photos/seed/camera/800/600",
     description: "Stabilized 4K60 video in a tiny body.",
     category: "Cameras",
+    owner: { name: "Mamduha Jabnir", email: "mamduha@example.com", phone: "+8801711000004" },
   },
   {
     id: 5,
@@ -40,6 +44,7 @@ export const featuredGadgets = [
     image: "https://picsum.photos/seed/keyboard/800/600",
     description: "Hot-swap switches, RGB, aluminum frame.",
     category: "Accessories",
+    owner: { name: "Toma Roy", email: "toma@example.com", phone: "+8801711000005" },
   },
   {
     id: 6,
@@ -49,31 +54,35 @@ export const featuredGadgets = [
     description: "Punchy sound with 12h battery.",
     category: "Audio",
     badge: "Sale",
+    owner: { name: "Effat Habiba", email: "effat@example.com", phone: "+8801711000006" },
   },
   {
     id: 7,
     name: "Wired Studio Headphones",
     price: 7000,
     image: "https://picsum.photos/seed/wiredheadphones/800/600",
-    description: "Professional wired headphones with clear sound.",
+    description: "Professional wired headphones with clear, balanced sound.",
     category: "Audio",
+    owner: { name: "Mashrin Mahbub", email: "mashrin@example.com", phone: "+8801711000007" },
   },
   {
     id: 8,
     name: "Laptop ProBook 15",
     price: 125000,
     image: "https://picsum.photos/seed/laptop1/800/600",
-    description: "15-inch laptop with Intel i7, 16GB RAM, 512GB SSD.",
+    description: "15\" i7, 16GB RAM, 512GB SSD — fast and reliable.",
     category: "Laptops",
     badge: "Hot",
+    owner: { name: "Ragib Islam", email: "ragib@example.com", phone: "+8801711000008" },
   },
   {
     id: 9,
     name: "Gaming Laptop Xtreme",
     price: 185000,
     image: "https://picsum.photos/seed/laptop2/800/600",
-    description: "RTX graphics, 17-inch display, perfect for gaming.",
+    description: "RTX graphics, 17\" 165Hz — built for serious gaming.",
     category: "Laptops",
     badge: "New",
+    owner: { name: "Nihad Hasan", email: "nihad@example.com", phone: "+8801711000009" },
   },
 ];
