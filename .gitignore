@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+﻿# Node dependencies
+node_modules/
+**/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+web/dist/
+**/dist/
+**/build/
+
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+
+# Env files
+=======
 # Node / React
 node_modules/
 dist/
@@ -5,10 +28,17 @@ dist/
 *.log
 
 # Env
+>>>>>>> 2101ea2a00d17518bf54230b5c03a0ef5904d2ae
 .env
 .env.local
 .env.*.local
 
+<<<<<<< HEAD
+# Misc
+*.log
+*.tmp
+
+=======
 # OS / Editors
 .DS_Store
 Thumbs.db
@@ -20,3 +50,4 @@ web/public/uploads/*
 
 # DB dumps
 database/dumps/*.sql
+>>>>>>> 2101ea2a00d17518bf54230b5c03a0ef5904d2ae
