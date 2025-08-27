@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# Node dependencies
 node_modules/
 **/node_modules/
@@ -19,11 +20,34 @@ web/dist/
 .DS_Store
 
 # Env files
+=======
+# Node / React
+node_modules/
+dist/
+.vite/
+*.log
+
+# Env
+>>>>>>> 2101ea2a00d17518bf54230b5c03a0ef5904d2ae
 .env
 .env.local
 .env.*.local
 
+<<<<<<< HEAD
 # Misc
 *.log
 *.tmp
 
+=======
+# OS / Editors
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Uploads
+web/public/uploads/*
+!web/public/uploads/.gitkeep
+
+# DB dumps
+database/dumps/*.sql
+>>>>>>> 2101ea2a00d17518bf54230b5c03a0ef5904d2ae
